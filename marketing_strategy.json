@@ -1,0 +1,53 @@
+
+{
+  "google_ads": {
+    "headlines": [
+      "Luxury Construction in Durgapur",
+      "Architect with EMI Plans",
+      "Easy EMI Interior Design",
+      "Konar Design Studio EMI",
+      "Build Your Dream Home - EMI",
+      "Vastu Compliant Construction",
+      "Premium Interiors on EMI",
+      "Architecture & EMI Bengal",
+      "Professional Durgapur Architects",
+      "Modern Homes, Easy Payments"
+    ],
+    "descriptions": [
+      "Premium architecture and interior design in Durgapur with easy EMI options for projects above ₹10L.",
+      "Experience luxury without financial stress. Low monthly payments on high-end construction projects.",
+      "Expert Vastu-based planning and 3D visualization. Get the Konar advantage with flexible payment plans.",
+      "Leading architects in West Bengal. Turnkey construction and luxury interiors with bank-approved EMI."
+    ],
+    "negative_keywords": [
+      "cheap",
+      "free",
+      "DIY",
+      "jobs",
+      "courses",
+      "used furniture",
+      "temporary construction"
+    ]
+  },
+  "crm_workflow": {
+    "sheet_columns": [
+      "Lead Date",
+      "Source (Ads/Organic/Social)",
+      "Client Name",
+      "Phone (WhatsApp)",
+      "Email",
+      "Service Requested",
+      "Project Budget",
+      "Lead Priority",
+      "Next Action Date",
+      "Sales Representative",
+      "Status (New/Discovery/Quoted/Closed)"
+    ],
+    "lead_priority_logic": {
+      "HOT": "Budget > ₹25L AND Preferred Date selected",
+      "WARM": "Budget between ₹10L - ₹25L",
+      "COLD": "Incomplete project details or budget < ₹10L"
+    },
+    "whatsapp_notification_template": "New EMI Lead: [Name] | [Service] | Budget: [Budget] | Priority: [Priority] | Contact: [Phone]"
+  }
+}

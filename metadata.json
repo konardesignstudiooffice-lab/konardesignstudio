@@ -1,0 +1,8 @@
+{
+  "name": "Konar Design Studio - Luxury Architects",
+  "description": "Ultra-luxury architecture, interior design, and Vastu-scientific planning studio based in Durgapur, West Bengal. Specializing in high-end residential and commercial projects with a blend of modern engineering and traditional science.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone"
+  ]
+}
